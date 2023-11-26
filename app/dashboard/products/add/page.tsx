@@ -1,4 +1,4 @@
-import styles from "@/app/ui/dashboard/products/addProduct/addProduct.module.css"
+import styles from "@/app/ui/dashboard/products/addProduct/addProduct.module.css";
 
 const AddProductPage = () => {
   return (
@@ -15,11 +15,16 @@ const AddProductPage = () => {
         <input type="number" placeholder="Stock" name="stock" />
         <input type="text" placeholder="Color" name="color" />
         <input type="text" placeholder="Size" name="size" />
-        <textarea name="desc" id="desc" rows="16" placeholder="Description"></textarea>
+        <textarea
+          name="desc"
+          id="desc"
+          rows={16}
+          placeholder="Description"
+        ></textarea>
         <button type="submit">Add Product</button>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default AddProductPage
+export default AddProductPage;

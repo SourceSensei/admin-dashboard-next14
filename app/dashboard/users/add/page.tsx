@@ -31,7 +31,7 @@ const AddUserPage = () => {
                 <textarea
                     name="address"
                     id="address"
-                    rows="16"
+                    rows={16}
                     placeholder="Address"
                 ></textarea>
                 <button type="submit">Submit</button>
