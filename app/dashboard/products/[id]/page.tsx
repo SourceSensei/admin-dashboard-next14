@@ -29,7 +29,7 @@ const SingleProductPage = async () => {
             <option value="computers">Computers</option>
           </select>
           <label>Description</label>
-          <textarea name="desc" id="desc" rows="10" placeholder=""></textarea>
+          <textarea name="desc" id="desc" rows={10} placeholder=""></textarea>
           <button>Update</button>
         </form>
       </div>
