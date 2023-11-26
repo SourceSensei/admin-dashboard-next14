@@ -2,7 +2,6 @@ import styles from "@/app/ui/dashboard/products/singleProduct/singleProduct.modu
 import Image from "next/image";
 
 const SingleProductPage = async () => {
-
   return (
     <div className={styles.container}>
       <div className={styles.infoContainer}>
