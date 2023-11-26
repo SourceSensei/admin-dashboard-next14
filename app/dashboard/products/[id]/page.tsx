@@ -15,15 +15,15 @@ const SingleProductPage = async () => {
         <form action="" className={styles.form}>
           <input type="hidden" name="id" value="" />
           <label>Title</label>
-          <input type="text" name="title" placeholder="" />
+          <input type="text" name="title" placeholder="Title" />
           <label>Price</label>
-          <input type="number" name="price" placeholder="" />
+          <input type="number" name="price" placeholder="Price" />
           <label>Stock</label>
-          <input type="number" name="stock" placeholder="" />
+          <input type="number" name="stock" placeholder="Stock" />
           <label>Color</label>
-          <input type="text" name="color" placeholder="" />
+          <input type="text" name="color" placeholder="Color" />
           <label>Size</label>
-          <textarea type="text" name="size" placeholder="" />
+          <textarea name="size" placeholder="Size" />
           <label>Cat</label>
           <select name="cat" id="cat">
             <option value="kitchen">Kitchen</option>

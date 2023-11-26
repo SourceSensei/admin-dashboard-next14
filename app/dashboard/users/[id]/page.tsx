@@ -26,7 +26,7 @@ const SingleUserPage = async () => {
           <label>Phone</label>
           <input type="text" name="phone" placeholder="123-456-7890" />
           <label>Address</label>
-          <textarea type="text" name="address" placeholder="123 Main St. Anytown, USA 12345" />
+          <textarea name="address" placeholder="123 Main St. Anytown, USA 12345" />
           <label>Is Admin?</label>
           <select name="isAdmin" id="isAdmin">
             <option value={true} >Yes</option>
