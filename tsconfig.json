@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/lib/utils.js", "app/lib/data.js", "app/lib/models.js", "app/ui/dashboard/pagination/pagination.jsx", "app/ui/dashboard/search/search.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/lib/utils.js", "app/lib/data.js", "app/lib/models.js", "app/ui/dashboard/pagination/pagination.jsx", "app/ui/dashboard/search/search.jsx", "app/dashboard/users/[id]/page.jsx", "app/dashboard/products/[id]/page.jsx", "app/dashboard/products/add/page.jsx", "app/dashboard/users/page.jsx", "app/ui/dashboard/sidebar/sidebar.jsx"],
   "exclude": ["node_modules"]
 }
